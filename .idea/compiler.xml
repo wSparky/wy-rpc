@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="wy-rpc" />
+        <module name="rpc-common" />
+        <module name="rpc-framework" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="wy-rpc-common" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,14 @@
+/.idea/
+/target/
+/rpc-framework/target/
+/rpc-common/target/
+
+/wy-rpc.iml
+/rpc-framework/rpc-framework.iml
+/rpc-common/rpc-common.iml
+
+/.settings
+*/.settings
+.classpath
+.project
+.DS_Store

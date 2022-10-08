@@ -6,7 +6,14 @@
 
     <groupId>org.example</groupId>
     <artifactId>wy-rpc</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>wy-rpc-common</module>
+        <module>rpc-common</module>
+        <module>rpc-framework</module>
+        <module>netty-example</module>
+    </modules>
 
     <properties>
         <encoding>UTF-8</encoding>
