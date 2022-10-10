@@ -15,7 +15,7 @@ public class RequestHolder {
      *
      *保存请求ID和返回数据的关系
      */
-    public static final Map<Long,RpcFuture> RPC_MAP = new ConcurrentHashMap<>();
+    public static final Map<Long,RpcFuture> REQUEST_MAP = new ConcurrentHashMap<>();
 
 
 }
