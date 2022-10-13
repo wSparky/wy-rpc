@@ -10,11 +10,6 @@
         <module name="netty-example" />
         <module name="rpc-framework" />
         <module name="rpc-simple-demo" />
-      </profile>
-      <profile name="Annotation profile for wy-rpc" enabled="true">
-        <sourceOutputDir name="../rpc-common/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../rpc-common/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
         <module name="rpc-framework-common" />
       </profile>
     </annotationProcessing>
