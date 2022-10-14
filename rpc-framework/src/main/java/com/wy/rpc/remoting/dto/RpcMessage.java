@@ -1,5 +1,7 @@
 package com.wy.rpc.remoting.dto;
 
+import lombok.*;
+
 /**
  * @author wangye
  * @Email wangye.wy@outlook.com
@@ -7,6 +9,12 @@ package com.wy.rpc.remoting.dto;
  * @Version: 1.0.0
  * @Description: 自定义消息类型
  */
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@Builder
+@ToString
 public class RpcMessage {
 
     /**
