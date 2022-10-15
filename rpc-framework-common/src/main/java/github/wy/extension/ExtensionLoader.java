@@ -22,13 +22,13 @@ import static java.nio.charset.StandardCharsets.UTF_8;
  * @Version: 1.0.0
  * @Description: 自适应拓展原理，与SPI一起使用。
  * 参考：https://www.tianxiaobo.com/2018/10/13/Dubbo-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90-%E8%87%AA%E9%80%82%E5%BA%94%E6%8B%93%E5%B1%95%E5%8E%9F%E7%90%86/
- * https://zhuanlan.zhihu.com/p/265145349
+ *
  */
 
 @Slf4j
 public final class ExtensionLoader<T> {
 
-    private static final String SERVICE_DIRECTORY = "META-INF/extensions";
+    private static final String SERVICE_DIRECTORY = "META-INF/extensions/";
     private static final Map<Class<?>, ExtensionLoader<?>> EXTENSION_LOADERS = new ConcurrentHashMap<>();
     private static final Map<Class<?>, Object> EXTENSION_INSTANCES = new ConcurrentHashMap<>();
 
