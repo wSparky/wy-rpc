@@ -1,5 +1,7 @@
 package com.wy.rpc.serialize;
 
+import github.wy.extension.SPI;
+
 import javax.sql.rowset.serial.SerialException;
 
 /**
@@ -9,7 +11,7 @@ import javax.sql.rowset.serial.SerialException;
  * @Version: 1.0.0
  * @Description: TODO
  */
-
+@SPI
 public interface CommonSerializer {
 
     /**
