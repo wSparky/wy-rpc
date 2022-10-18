@@ -1,4 +1,4 @@
-package com.wy.rpc.spring;
+package github.wy.factory;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.Map;
@@ -9,7 +9,8 @@ import java.util.concurrent.ConcurrentHashMap;
  * @Email wangye.wy@outlook.com
  * @CreateTime: 2022-10-17  19:39
  * @Version: 1.0.0
- * @Description: TODO
+ * @Description: 单列工厂，静态内部类，只有在装载Singleton以后显示调用getInstance才可以实例化Instance
+ * 参考：https://www.runoob.com/design-pattern/singleton-pattern.html
  */
 public class SingletonFactory {
     private static final Map<String, Object> OBJECT_MAP = new ConcurrentHashMap<>();
