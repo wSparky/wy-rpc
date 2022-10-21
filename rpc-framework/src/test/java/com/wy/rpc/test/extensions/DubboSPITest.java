@@ -9,7 +9,7 @@ import org.junit.Test;
  * @Email wangye.wy@outlook.com
  * @CreateTime: 2022-10-15  13:27
  * @Version: 1.0.0
- * @Description: TODO
+ * @Description: Dubbo SPI学习
  */
 public class DubboSPITest {
 

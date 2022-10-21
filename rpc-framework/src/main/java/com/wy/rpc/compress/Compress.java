@@ -7,7 +7,7 @@ import github.wy.extension.SPI;
  * @Email wangye.wy@outlook.com
  * @CreateTime: 2022-10-15  14:49
  * @Version: 1.0.0
- * @Description: TODO
+ * @Description: 压缩类型接口
  */
 
 @SPI

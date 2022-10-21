@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @Email wangye.wy@outllok.com
  * @CreateTime: 2022-10-10  15:12
  * @Version: 1.0.0
- * @Description: TODO
+ * @Description: 服务提供者
  */
 @ComponentScan(basePackages = {"com.wy.rpc.provider", "com.wy.rpc.netty.spring"})
 @SpringBootApplication

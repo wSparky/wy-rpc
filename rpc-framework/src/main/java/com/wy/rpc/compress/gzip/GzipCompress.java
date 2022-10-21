@@ -13,7 +13,7 @@ import java.util.zip.GZIPOutputStream;
  * @Email wangye.wy@outlook.com
  * @CreateTime: 2022-10-15  14:54
  * @Version: 1.0.0
- * @Description: TODO
+ * @Description: 压缩类型：GZIP
  */
 public class GzipCompress implements Compress {
 

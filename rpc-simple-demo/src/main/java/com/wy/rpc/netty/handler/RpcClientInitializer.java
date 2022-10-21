@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
  * @Email wangye.wy@outllok.com
  * @CreateTime: 2022-10-10  14:49
  * @Version: 1.0.0
- * @Description: TODO
+ * @Description: 初始化客户端
  */
 @Slf4j
 public class RpcClientInitializer extends ChannelInitializer<SocketChannel> {

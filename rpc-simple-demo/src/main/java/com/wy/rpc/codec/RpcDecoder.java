@@ -70,7 +70,7 @@ public class RpcDecoder extends ByteToMessageDecoder {
                 out.add(resProtocol);
                 break;
             case HEARTBEAT:
-                //TODO
+
                 break;
             default:
                 break;

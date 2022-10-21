@@ -9,7 +9,7 @@ import java.net.URL;
  * @Email wangye.wy@outlook.com
  * @CreateTime: 2022-10-15  13:16
  * @Version: 1.0.0
- * @Description: TODO
+ * @Description: SPI测试构建类接口
  */
 @SPI
 public interface Robot {

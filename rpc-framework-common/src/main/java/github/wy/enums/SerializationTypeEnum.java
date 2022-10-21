@@ -8,7 +8,7 @@ import lombok.Getter;
  * @Email wangye.wy@outlook.com
  * @CreateTime: 2022-10-14  16:43
  * @Version: 1.0.0
- * @Description: TODO
+ * @Description: 序列化枚举类
  */
 @AllArgsConstructor
 @Getter

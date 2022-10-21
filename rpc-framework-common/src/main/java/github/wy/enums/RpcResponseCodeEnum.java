@@ -9,7 +9,7 @@ import lombok.ToString;
  * @Email wangye.wy@outlook.com
  * @CreateTime: 2022-10-13  18:39
  * @Version: 1.0.0
- * @Description: TODO
+ * @Description: Rpc响应枚举类
  */
 @AllArgsConstructor
 @Getter

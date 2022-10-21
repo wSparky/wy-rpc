@@ -9,7 +9,7 @@ import javax.sql.rowset.serial.SerialException;
  * @Email wangye.wy@outlook.com
  * @CreateTime: 2022-10-14  15:36
  * @Version: 1.0.0
- * @Description: TODO
+ * @Description: 序列化接口
  */
 @SPI
 public interface CommonSerializer {

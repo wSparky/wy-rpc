@@ -8,7 +8,7 @@ import lombok.Getter;
  * @Email wangye.wy@outlook.com
  * @CreateTime: 2022-10-18  19:28
  * @Version: 1.0.0
- * @Description: TODO
+ * @Description: Rpc配置文件
  */
 @AllArgsConstructor
 @Getter

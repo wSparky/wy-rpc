@@ -5,7 +5,7 @@ package github.wy.utils;
  * @Email wangye.wy@outlook.com
  * @CreateTime: 2022-10-14  21:24
  * @Version: 1.0.0
- * @Description: TODO
+ * @Description: 字符串工具类
  */
 public class StringUtil {
 

@@ -14,7 +14,7 @@ import io.netty.handler.logging.LoggingHandler;
  * @Email wangye.wy@outllok.com
  * @CreateTime: 2022-10-11  19:29
  * @Version: 1.0.0
- * @Description: TODO
+ * @Description: Netty客户端
  */
 public class NettyClient {
     public static void main(String[] args) throws InterruptedException {

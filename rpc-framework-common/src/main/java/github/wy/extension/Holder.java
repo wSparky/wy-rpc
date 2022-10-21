@@ -5,7 +5,7 @@ package github.wy.extension;
  * @Email wangye.wy@outlook.com
  * @CreateTime: 2022-10-14  21:28
  * @Version: 1.0.0
- * @Description: TODO
+ * @Description:
  */
 public class Holder<T> {
 
