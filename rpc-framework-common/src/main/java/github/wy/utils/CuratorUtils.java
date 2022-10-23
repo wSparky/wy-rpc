@@ -35,7 +35,7 @@ public final class CuratorUtils {
     private static final Map<String, List<String>> SERVICE_ADDRESS_MAP = new ConcurrentHashMap<>();
     private static final Set<String> REGISTERED_PATH_SET = ConcurrentHashMap.newKeySet();
     private static CuratorFramework zkClient;
-    private static final String DEFAULT_ZOOKEEPER_ADDRESS = "127.0.0.1:2181";
+    private static final String DEFAULT_ZOOKEEPER_ADDRESS = "124.221.174.54:2181";
 
     public static void createPersistentNode(CuratorFramework zkClient, String path) {
         try {
