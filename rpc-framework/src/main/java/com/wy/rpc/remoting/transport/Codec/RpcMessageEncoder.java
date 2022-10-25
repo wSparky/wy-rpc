@@ -1,6 +1,5 @@
-package com.wy.rpc.remoting.Codec;
+package com.wy.rpc.remoting.transport.Codec;
 
-import com.caucho.hessian.io.Serializer;
 import com.wy.rpc.compress.Compress;
 import com.wy.rpc.remoting.constants.RpcConstants;
 import com.wy.rpc.remoting.dto.RpcMessage;
